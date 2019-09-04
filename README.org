@@ -1,0 +1,7 @@
+* prep-openmw
+Morrowind mods were written and packaged for Windows, a case-insensitive operating system. This is a simple script to rename the mod files for a use in a case-sensitive operating system for use in [[http://openmw.org][OpenMW]].
+
+** License
+MIT
+
+Copyright (c) 2019 Tim Hawes
