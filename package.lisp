@@ -4,4 +4,5 @@
 
 
 (defpackage #:prep-openmw
-  (:use #:cl))
+  (:use #:cl)
+  (:export :-main))

@@ -9,5 +9,9 @@
   :license  "MIT"
   :version "0.0.1"
   :serial t
+  :depends-on (#:ppath)
   :components ((:file "package")
-               (:file "prep-openmw")))
+               (:file "prep-openmw"))
+  :build-operation "asdf:program-op"
+  :build-pathname "target/emacs-term"
+  :entry-point "prep-openmw:-main")
