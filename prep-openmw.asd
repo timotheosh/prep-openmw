@@ -13,5 +13,5 @@
   :components ((:file "package")
                (:file "prep-openmw"))
   :build-operation "asdf:program-op"
-  :build-pathname "target/emacs-term"
+  :build-pathname "target/prep-openmw"
   :entry-point "prep-openmw:-main")
